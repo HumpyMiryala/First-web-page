@@ -1,0 +1,45 @@
+
+    body {
+      background-image: url("https://cdn.pixabay.com/photo/2017/10/07/18/55/morning-2827571_960_720.jpg");
+      background-size: cover;
+      height: 100vh;
+    }
+    .center{
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        font-family: sans-serif;
+        user-select: none;
+    }
+    .center h1{
+        color: white;
+        font-size: 70px;
+        width: 900px;
+        font-weight: bold;
+        text-align: center;
+            text-shadow: 2px 2px 5px red;
+    }
+    .center h2{
+        color: white;
+        font-size: 70px;
+        font-weight: bold;
+        margin-top: 10px;
+        width: 885px;
+        text-align: center;
+            text-shadow: 2px 2px 5px yellow;
+    }
+    .center .buttons{
+        margin: 35px 380px;
+    }
+    .buttons button{
+        height: 50px;
+        width: 150px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #ffb3b3;
+        background: rgb(255, 0, 0);
+        cursor: pointer;
+        border: 1px solid #cc0000;
+        border-radius: 25px;
+    }
