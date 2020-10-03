@@ -1,7 +1,7 @@
 
     body {
-      background-image: url("https://cdn.pixabay.com/photo/2017/10/07/18/55/morning-2827571_960_720.jpg");
-      background-size: cover;
+      background-image: url("bg4.jpg");
+      background-size: cover;  
       height: 100vh;
     }
     .center{
